@@ -1,4 +1,4 @@
-package com.wkclz.lz;
+package com.wkclz.starter;
 
 
 import org.springframework.cloud.openfeign.EnableFeignClients;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableFeignClients(value = {"com.wkclz.sdk.feign"})
 @ComponentScan(basePackages = {
-    "com.wkclz.lz",
+    "com.wkclz.starter",
     "com.wkclz.sdk",
     "com.wkclz.core",
 })
