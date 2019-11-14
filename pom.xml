@@ -33,7 +33,7 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.wkclz</groupId>
+            <groupId>com.wkclz.core</groupId>
             <artifactId>lz-core</artifactId>
             <version>${lz-core.version}</version>
         </dependency>
