@@ -53,7 +53,12 @@
         <repository>
             <id>rdc-snapshots</id>
             <url>https://repo.rdc.aliyun.com/repository/39635-snapshot-plF5tD/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
         </repository>
+
     </repositories>
 
 </project>
