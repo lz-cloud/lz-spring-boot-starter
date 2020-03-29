@@ -38,6 +38,12 @@
             <version>${lz-core.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.wkclz.starter</groupId>
+            <artifactId>lz-grayscale-spring-boot-starter</artifactId>
+            <version>3.1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>
