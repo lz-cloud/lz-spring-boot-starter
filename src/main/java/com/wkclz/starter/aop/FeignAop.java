@@ -30,7 +30,7 @@ public class FeignAop {
      * : @AfterReturning第一个后置返回通知的返回值：18
      */
 
-    private static final Logger logger = LoggerFactory.getLogger(com.wkclz.core.aop.FeignAop.class);
+    private static final Logger logger = LoggerFactory.getLogger(FeignAop.class);
     private final String POINT_CUT = "@within(org.springframework.cloud.openfeign.FeignClient)";
 
 
